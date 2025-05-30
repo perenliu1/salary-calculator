@@ -69,7 +69,7 @@
 1.  **克隆仓库** (请替换为您的仓库地址)：
 
     ```bash
-    git clone [https://github.com/perenliu1/salary-calculator.git](https://github.com/perenliu1/salary-calculator.git)
+    git clone https://github.com/perenliu1/salary-calculator.git
     cd salary-calculator
     ```
 
@@ -84,14 +84,14 @@
     此命令将以开发模式启动应用，支持热重载。
 
     ```bash
-    pnpm dev
+    pnpm run dev
     ```
 
 4.  **构建生产版本**：
     此命令将为当前平台构建可分发的应用程序。
 
     ```bash
-    pnpm build
+    pnpm run build:win
     ```
 
     构建后的文件将位于项目根目录下的 `dist` 文件夹内 (根据 `electron-builder.yml` 配置)。
